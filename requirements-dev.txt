@@ -49,3 +49,4 @@ h5py
 nni
 optuna
 git+https://github.com/Project-MONAI/MetricsReloaded@monai-support#egg=MetricsReloaded
+werkzeug>=3.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
