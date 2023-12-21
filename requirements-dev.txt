@@ -34,8 +34,8 @@ tifffile; platform_system == "Linux" or platform_system == "Darwin"
 pandas
 requests
 einops
-transformers<4.22  # https://github.com/Project-MONAI/MONAI/issues/5157
-mlflow>=1.28.0
+transformers<4.36.0  # https://github.com/Project-MONAI/MONAI/issues/5157
+mlflow>=2.9.2
 matplotlib!=3.5.0
 tensorboardX
 types-PyYAML
@@ -49,3 +49,4 @@ h5py
 nni
 optuna
 git+https://github.com/Project-MONAI/MetricsReloaded@monai-support#egg=MetricsReloaded
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
